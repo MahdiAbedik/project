@@ -14,7 +14,7 @@ emtiaz_player1 = 0
 emtiaz_player2 = 0
 while emtiaz_player1 <=3 or emtiaz_player2 <=3:
     if emtiaz_player1 == 3 :
-        print("player2 is win va payan bazi")
+        print("player1 is win va payan bazi")
     elif emtiaz_player2 == 3 :
         print("player2 is win va payan bazi")    
     

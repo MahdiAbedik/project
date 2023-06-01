@@ -15,7 +15,7 @@ emtiaz_player1 = 0
 emtiaz_player2 = 0
 while emtiaz_player1 <=2 or emtiaz_player2 <=2:
     if emtiaz_player1 == 2 :
-        print("player2 is win va payan bazi")
+        print("player1 is win va payan bazi")
     elif emtiaz_player2 == 2 :
         print("player2 is win va payan bazi")
 
@@ -42,12 +42,22 @@ while emtiaz_player1 <=2 or emtiaz_player2 <=2:
     elif player1 == "dast chap" and player2 == "dast chap gol" :
         print("player1 is win")
         emtiaz_player1 +=1
+    elif player1 == "dast chap" and player2 == "dast rast pooch" :
+        print("dobare")
+    elif player1 == "dast chap" and player2 == "dast rast gol" :
+        print("player2 is win")
+        emtiaz_player2 +=1           
     elif player1 == "dast rast" and player2 == "dast rast pooch" :
         print("player2 is win")
         emtiaz_player2 +=1
     elif player1 == "dast rast" and player2 == "dast rast gol" :
         print("player1 is win")
         emtiaz_player1 +=1 
+    elif player1 == "dast rast" and player2 == "dast chap pooch" :
+        print("dobare")
+    elif player1 == "dast rast" and player2 == "dast chap gol" :
+        print("player2 is win")
+        emtiaz_player2 +=1
     else:
         print("motasefane ye chizi eshtebahe .") 
 
