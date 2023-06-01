@@ -16,8 +16,10 @@ emtiaz_player2 = 0
 while emtiaz_player1 <=2 or emtiaz_player2 <=2:
     if emtiaz_player1 == 2 :
         print("player1 is win va payan bazi")
+        break
     elif emtiaz_player2 == 2 :
         print("player2 is win va payan bazi")
+        break
 
     player1 = input("entekhab shoma , dast rast ast ya dast chap ? ")
 
